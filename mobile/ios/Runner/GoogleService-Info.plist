@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>715095642554-of8fa95lfqtvnrgnseqhkjrm9kgq1s15.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.715095642554-of8fa95lfqtvnrgnseqhkjrm9kgq1s15</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCd5mrQOW8IWl2kEh2Y4csKV2MyxvFplCI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>715095642554</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.futureitway.mentally</string>
+	<key>PROJECT_ID</key>
+	<string>mentallyaiproject-8f49e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mentallyaiproject-8f49e.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:715095642554:ios:f536b7582af9bc47220d83</string>
+</dict>
+</plist>

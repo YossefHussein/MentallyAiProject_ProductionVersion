@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#086d31d4",
+    "titleBar.activeBackground": "#086d31d4",
+    "titleBar.activeForeground": "#fefefe"
+  },
+  "cSpell.words": [
+    "usecases",
+    "اعمل",
+    "حساب"
+  ],
+  "cmake.sourceDirectory": "C:/.projects/flutter/mental_health_flutter/windows"
+}

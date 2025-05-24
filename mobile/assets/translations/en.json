@@ -1,0 +1,59 @@
+{
+  "onboarding_screen": {
+    "title_onboarding_button": "Let us help you"
+  },
+  "auth_screen": {
+    "text_form": {
+      "email_text_from": "Email",
+      "password_text_from": "Password",
+      "confirm_password_text_from": "Confirm Password"
+    },
+    "login_screen": {
+      "title_login_email_button": "Login with email",
+      "title_login_google_button": "Login with google",
+      "if_dont_have_account": "If does not have account?",
+      "make_account_here": "Make here"
+    },
+    "logup_Screen": {
+      "title_logup_email_button": "Logup with email",
+      "title_logup_google_button": "Logup with google",
+      "if_have_account": "Are you have account?",
+      "login_now": "Login now"
+    }
+  },
+  "home_screen": {
+    "welcome_back": "Welcome Back",
+    "how_are_you_feeling_today": "How Are You Feeling Today",
+    "today_task": "Today Task",
+    "morning": "Morning",
+    "noon": "Noon",
+    "evening": "Evening",
+    "happy_mood_button": "Happy",
+    "calm_mood_button": "Calm",
+    "relax_mood_button": "Relax",
+    "focus_mood_button": "Focus",
+    "my_mood_button": "My Mood \n REC",
+    "okay_button": "okay"
+  },
+  "drawer_widget": {
+    "settings_app": "Mentally Settings",
+    "about_developer": "About Developer",
+    "support_developer": "Support Developer",
+    "tech_used_to_make_app": "Tech Used To Make App",
+    "logout": "LogOut",
+    "title_logout": "Are You Sure Exit From Meditation",
+    "my_sir": "My Sir",
+    "title_description": "You Exit From Meditation environment to help YOU for make good Meditation time, Pleas think again and take option from these option under this text section",
+    "restart_app":"Restart App", 
+    "title_logout_button": "LogOut",
+    "title_cancel_button": "Cancel"
+  },
+  "song_playlist_screen": {
+    "song_mood_angry": "Angary",
+    "song_mood_good": "Good",
+    "song_mood_good_place": "Good Place",
+    "song_mood_sad": "Sad"
+  },
+  "mentally_settings": {},
+  "no_data_found": "no data found"
+}

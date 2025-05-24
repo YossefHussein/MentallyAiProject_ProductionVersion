@@ -1,0 +1,2 @@
+/home/vector/a_programming_projects/bussiness_project/MenttalyAiProject/android/app/.cxx/Debug/6v4wm274/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/vector/a_programming_projects/bussiness_project/MenttalyAiProject/android/app/.cxx/Debug/6v4wm274/armeabi-v7a/CMakeFiles/rebuild_cache.dir

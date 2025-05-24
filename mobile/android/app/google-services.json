@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "715095642554",
+    "project_id": "mentallyaiproject-8f49e",
+    "storage_bucket": "mentallyaiproject-8f49e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715095642554:android:30b59481cfe5df30220d83",
+        "android_client_info": {
+          "package_name": "com.futureitway.mentally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715095642554-jt5igd3r4ji9rgm6f9ptqp2cfbhg7jrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEZMRaCnY96JJHlTDxGnDyjaQprF_7pLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715095642554-jt5igd3r4ji9rgm6f9ptqp2cfbhg7jrd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "715095642554-of8fa95lfqtvnrgnseqhkjrm9kgq1s15.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futureitway.mentally"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
