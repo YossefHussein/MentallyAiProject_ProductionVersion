@@ -84,9 +84,8 @@ class _SongsBottomSheetState extends State<SongsBottomSheet> {
     _audioPlayer.seek(Duration.zero);
   }
 
-/**
- * ads section 
- **/
+/// ads section 
+///
 
   // for make banner
   BannerAd? _banner;

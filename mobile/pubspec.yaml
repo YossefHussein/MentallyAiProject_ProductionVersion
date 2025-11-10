@@ -88,7 +88,7 @@ dependencies:
   # for adding ads
   google_mobile_ads: ^4.0.0
   # date format
-  intl: ^0.19.0
+  intl: ^0.20.2
   # for condition
   conditional_builder_null_safety: ^0.0.6
   # used in about developer screen

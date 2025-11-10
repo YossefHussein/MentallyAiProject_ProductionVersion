@@ -83,7 +83,7 @@ class SettingScreen extends StatelessWidget {
             onPressed: () async {
               await user?.delete().then((value) async {
                 await FirebaseAuth.instance.signOut();
-                await user?.delete();
+                await user.delete();
                 Navigator.pop(context);
               });
             },

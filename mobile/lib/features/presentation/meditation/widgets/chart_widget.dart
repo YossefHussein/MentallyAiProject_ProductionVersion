@@ -5,7 +5,7 @@ import 'package:mental_health_app/features/presentation/meditation/widgets/custo
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class ChartWidget extends StatefulWidget {
-  const ChartWidget({Key? key}) : super(key: key);
+  const ChartWidget({super.key});
 
   @override
   ChartState createState() => ChartState();

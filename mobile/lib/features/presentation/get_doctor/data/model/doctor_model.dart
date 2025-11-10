@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:mental_health_app/features/presentation/get_doctor/domain/entities/doctor.dart';
 

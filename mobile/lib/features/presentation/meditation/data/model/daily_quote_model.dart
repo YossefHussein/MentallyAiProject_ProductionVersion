@@ -3,13 +3,10 @@ import 'package:mental_health_app/features/presentation/meditation/domain/entiti
 
 class DailyQuoteModel extends DailyQuote {
   DailyQuoteModel({
-    required String morningQuote,
-    required String noonQuote,
-    required String eveningQuote,
-  }) : super(
-            morningQuote: morningQuote,
-            noonQuote: noonQuote,
-            eveningQuote: eveningQuote);
+    required super.morningQuote,
+    required super.noonQuote,
+    required super.eveningQuote,
+  });
 
   factory DailyQuoteModel.fromJson(Map<String, dynamic> json) {
     final quotes = jsonDecode(json['text']);

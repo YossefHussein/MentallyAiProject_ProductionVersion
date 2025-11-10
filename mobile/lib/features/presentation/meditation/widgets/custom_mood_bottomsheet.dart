@@ -77,19 +77,19 @@ class _CustomBottomSheetState extends State<CustomBottomSheet> {
               child: ListView(
                 controller: controller,
                 children: [
-                  Container(
+                  SizedBox(
                     height: 400,
                     child: ChartWidget(
                       key: chartKey,
                     ),
                   ),
-                  Container(
+                  SizedBox(
                     height: 400,
                     child: ChartBubble(
                       key: chartKey,
                     ),
                   ),
-                  Container(
+                  SizedBox(
                     height: 400,
                     child: ColumnSeriesChartWidget(
                       key: chartKey,

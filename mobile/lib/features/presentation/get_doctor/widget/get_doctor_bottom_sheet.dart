@@ -6,7 +6,6 @@ import 'package:mental_health_app/core/ads_helper.dart';
 import 'package:mental_health_app/core/theme.dart';
 import 'package:mental_health_app/features/presentation/get_doctor/domain/entities/doctor.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-import 'package:hexcolor/hexcolor.dart';
 
 void doctorBottomSheet(BuildContext context,
     {required DoctorEntities getDoctor}) {

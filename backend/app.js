@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 // import cors for security
 var cors = require("cors");
-// using cors
+// using cors for security
 app.use(cors());
 // import song routing
 const songRouter = require("./adapters/routes/songs_routes");

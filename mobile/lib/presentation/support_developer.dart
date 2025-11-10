@@ -1,6 +1,5 @@
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
 import 'package:mental_health_app/presentation/about_developer.dart';

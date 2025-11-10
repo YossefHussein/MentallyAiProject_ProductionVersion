@@ -63,7 +63,7 @@ class TaskCard extends StatelessWidget {
                         icon: Icon(Icons.copy),
                         onPressed: () {
                           FlutterClipboard.copy(description).then((value) =>
-                              sendMSG('copied the advice: $description\.'));
+                              sendMSG('copied the advice: ${description}.'));
                         },
                       ),
                     ),
@@ -74,7 +74,7 @@ class TaskCard extends StatelessWidget {
                         icon: Icon(Icons.share),
                         onPressed: () async {
                           final result = await Share.share(
-                            'check out new advice \"$description\.\"',
+                            'check out new advice "${description}."',
                             subject: '$title Advice',
                           );
 

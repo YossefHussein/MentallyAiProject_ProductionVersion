@@ -1,7 +1,7 @@
 plugins {
     id "com.android.application"
     // START: FlutterFire Configuration
-    id "com.google.gms.google-services" version "4.3.15" apply false
+    id "com.google.gms.google-services"
     // END: FlutterFire Configuration
     id "kotlin-android"
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
@@ -20,8 +20,8 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace = "com.futureitway.mentally"
     compileSdk = 35
-//    ndkVersion = flutter.ndkVersion
-    ndkVersion = "25.1.8937393"
+    ndkVersion = flutter.ndkVersion
+//    ndkVersion = "25.1.8937393"
     compileOptions {
         coreLibraryDesugaringEnabled true
         sourceCompatibility = JavaVersion.VERSION_1_8

@@ -29,7 +29,7 @@ import 'package:mental_health_app/core/ads_helper.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 
 class MeditationScreen extends StatefulWidget {
-  MeditationScreen({super.key});
+  const MeditationScreen({super.key});
 
   @override
   State<MeditationScreen> createState() => _MeditationScreenState();

@@ -81,7 +81,7 @@ class DataBaseHelper {
     );
     // Adding the fetched data to the list to bind to the chart.
     List<ChartModeDataModel> students = [];
-    if (maps.length > 0) {
+    if (maps.isNotEmpty) {
       for (int i = 0; i < maps.length; i++) {
         students
             .add(ChartModeDataModel.fromMap(maps[i] as Map<String, dynamic>));

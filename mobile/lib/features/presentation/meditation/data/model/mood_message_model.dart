@@ -4,7 +4,7 @@ import 'package:mental_health_app/features/presentation/meditation/domain/entiti
 
 // this class for convert from json to dart in mood message section
 class MoodMessageModel extends MoodMessage {
-  MoodMessageModel({required String text}) : super(text: text);
+  MoodMessageModel({required super.text});
 
   factory MoodMessageModel.fromJson(Map<String, dynamic> json) {
     final quotes = jsonDecode(json['text']);

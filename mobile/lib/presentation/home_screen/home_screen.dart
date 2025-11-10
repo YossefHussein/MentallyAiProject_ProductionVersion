@@ -7,7 +7,6 @@ import 'package:mental_health_app/core/routes.dart';
 import 'package:mental_health_app/features/presentation/get_doctor/page/get_doctor.dart';
 import 'package:mental_health_app/features/presentation/meditation/page/meditation_screen.dart';
 import 'package:mental_health_app/features/presentation/music/page/playlist_screen.dart';
-import 'package:mental_health_app/generated/assets.dart';
 import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_bloc.dart';
 import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_events.dart';
 import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_states.dart';
