@@ -1,5 +1,5 @@
 class meditationClass {
-  constructor({
+  constructor(
     id,
     title,
     doctorName,
@@ -9,7 +9,7 @@ class meditationClass {
     timeClass,
     doctorPhoto,
     colorDoctorSpecialty,
-  }) {
+  ) {
     this.id = id;
     this.title = title;
     this.doctorName = doctorName;

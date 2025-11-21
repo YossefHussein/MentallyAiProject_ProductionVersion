@@ -1,6 +1,6 @@
 /// this class to make song information like id title author songLink
 class Song {
-  constructor({
+  constructor(
     id,
     title,
     author,
@@ -8,7 +8,7 @@ class Song {
     typeSong,
     colorTypeOfSong,
     thumbnail,
-  }) {
+  ) {
     this.id = id;
     this.title = title;
     this.author = author;

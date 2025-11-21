@@ -2,11 +2,9 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lottie/lottie.dart';
 import 'package:mental_health_app/core/notification_handler.dart';
 import 'package:mental_health_app/core/theme.dart';
 import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
@@ -174,7 +172,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                               SystemSound.play(SystemSoundType.click);
                               // loading
                               sendMSG(
-                                'Loadding message \n mode will be adding to database',
+                                'Loading message \n mode will be adding to database',
                               ); // call notification
                               context.read<MoodMessageBloc>().add(
                                   FetchMoodMessageEvent('Today i am happy'));
@@ -195,7 +193,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                               count++; // perss click
                               SystemSound.play(SystemSoundType.click);
                               sendMSG(
-                                'Loadding message \n mode will be adding to database',
+                                'Loading message \n mode will be adding to database',
                               );
                               context.read<MoodMessageBloc>().add(
                                   FetchMoodMessageEvent('Today i am calm'));
@@ -217,7 +215,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                               count++; // perss click
                               SystemSound.play(SystemSoundType.click);
                               sendMSG(
-                                'Loadding message \n mode will be adding to database',
+                                'Loading message \n mode will be adding to database',
                               );
                               context.read<MoodMessageBloc>().add(
                                   FetchMoodMessageEvent('Today i am relax'));
@@ -240,7 +238,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                               // perss click
                               SystemSound.play(SystemSoundType.click);
                               sendMSG(
-                                'Loadding message \n mode will be adding to database',
+                                'Loading message \n mode will be adding to database',
                               );
                               context.read<MoodMessageBloc>().add(
                                     FetchMoodMessageEvent(
@@ -252,7 +250,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                           image: 'assets/images/custom_mood3.png',
                           color: DefaultColors.white,
                           onTap: () {
-                            // perss click
+                            // press click
                             SystemSound.play(SystemSoundType.click);
                             // open chart mode bottom sheet
                             customMoodBottomSheet(context);

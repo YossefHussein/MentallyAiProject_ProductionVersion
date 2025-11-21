@@ -1,11 +1,14 @@
+import rateLimit from 'express-rate-limit'
 // import dependencies
 const express = require("express");
 // using the express
 const app = express();
 // import cors for security
-var cors = require("cors");
+const cors = require("cors");
 // using cors for security
 app.use(cors());
+app.use(rateLimit());
+app.use(express.json());
 // import song routing
 const songRouter = require("./adapters/routes/songs_routes");
 // import meditation routing

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d45f1fd-63ec-46d2-8702-638e5da3fec7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/application/middlewares/rate_limiting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MentallyAiProject_ProductionVersion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deviceManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/studiobot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/domain/entities/meditation_class.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/domain/entities/meditation_class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/domain/entities/song.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/domain/entities/song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.cts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.cts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.mts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.mts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/dist/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/express-rate-limit/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/lib/features/presentation/meditation/page/meditation_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/lib/features/presentation/meditation/page/meditation_screen.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YossefHussein&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YossefHussein/MentallyAiProject_ProductionVersion.git&quot;,
+    &quot;accountId&quot;: &quot;33556a04-c13c-4745-86d3-68df64ae16c8&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35C6uJzxvwukUCV8L0XUd7rNY5u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.App.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.app.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.android.tools.idea.streaming.zoom.toolbar.visible": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/home/vector/project/MentallyAiProject_ProductionVersion/backend/app.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/var/lib/snapd/snap/webstorm/541/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="App" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/mobile/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="backend/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flutter.App" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d45f1fd-63ec-46d2-8702-638e5da3fec7" name="Changes" comment="" />
+      <created>1762601927952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762601927952</updated>
+      <workItem from="1762789085842" duration="4987000" />
+      <workItem from="1762899499975" duration="1120000" />
+      <workItem from="1762936258060" duration="429000" />
+      <workItem from="1762940152245" duration="1459000" />
+      <workItem from="1763048693299" duration="35000" />
+      <workItem from="1763568614723" duration="180000" />
+      <workItem from="1763568819864" duration="2167000" />
+      <workItem from="1763571906394" duration="1840000" />
+      <workItem from="1763693940737" duration="1629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
