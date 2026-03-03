@@ -6,4 +6,4 @@ class UseCaseInterFace {
 }
 
 // export the interface
-module.exports = UseCaseInterFace;
+export default UseCaseInterFace;

@@ -1,9 +1,8 @@
-const express = require("express");
-
-const SongController = require("../controllers/meditation_classes_controller");
+import express from "express";
+import MeditationClassesController from "../controllers/meditation_classes_controller.js";
 
 const router = express.Router();
 
-router.get("/allClasses", SongController.allClasses);
+router.get("/allClasses", MeditationClassesController.allClasses);
 
-module.exports = router;
+export default router;

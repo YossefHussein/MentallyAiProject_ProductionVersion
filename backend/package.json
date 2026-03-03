@@ -1,5 +1,5 @@
 {
-  "name": "mental_health_nodejs",
+  "name": "MentallyAiProject_ProductionVersion",
   "version": "1.0.0",
   "description": "this is backend and part for mental health app, this app programming with flutter",
   "main": "app.js",
@@ -7,8 +7,9 @@
     "dev": "nodemon ./app.js",
     "start": "node ./app.js"
   },
+  "type": "module",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@google/genai": "^1.0.1",
     "cors": "^2.8.5",

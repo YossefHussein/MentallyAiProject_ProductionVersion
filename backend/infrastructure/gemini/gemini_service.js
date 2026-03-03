@@ -1,13 +1,9 @@
-// import packages
-const dotenv = require('dotenv')
-// make config of dotenv
-dotenv.config()
 // import the gemini package
-const { GoogleGenAI } = require('@google/genai')
+import { GoogleGenAI } from '@google/genai';
 // import the interface
-const QuotesRepository = require('../../application/interfaces/quotes_repository')
+import QuotesRepository from '../../application/interfaces/quotes_repository.js';
 // adding the api key to gemini
-const genAi = new GoogleGenAI({ apiKey: process.env.Gemini_API_KEY })
+const genAi = new GoogleGenAI({ apiKey: process.env.Gemini_API_KEY });
 class GeminiService extends QuotesRepository {
   // we use this function in controller to get quotes or advices from gemini
   // get the advice by gemini
@@ -45,4 +41,4 @@ class GeminiService extends QuotesRepository {
   }
 }
 
-module.exports = GeminiService
+export default GeminiService;

@@ -1,11 +1,11 @@
 // import the song fo r make song info
-const Song = require("../../domain/entities/song");
+import Song from "../../domain/entities/song.js";
 // import the interface to call execute function
-const UseCaseInterFace = require("../interfaces/use_case_interface");
+import UseCaseInterFace from "../interfaces/use_case_interface.js";
 // this destruction objet to
 // when pressed ctrl+right click you move to [getAllSong] function direct
 // because the [getAllSong] is return in finally object
-const { getAllSong } = require("../../infrastructure/db/query/song_query");
+import { getAllSong } from "../../infrastructure/db/query/song_query.js";
 
 class GetSongs extends UseCaseInterFace {
   async execute() {
@@ -28,4 +28,4 @@ class GetSongs extends UseCaseInterFace {
   }
 }
 
-module.exports = GetSongs;
+export default GetSongs;

@@ -1,4 +1,4 @@
-const getAllMeditationClass = require("../../application/use-cases/get_meditation_class");
+import getAllMeditationClass from "../../application/use-cases/get_meditation_class.js";
 
 class MeditationClassesController {
     static async allClasses(req, res) {
@@ -12,4 +12,4 @@ class MeditationClassesController {
     }
 }
 
-module.exports = MeditationClassesController;
+export default MeditationClassesController;

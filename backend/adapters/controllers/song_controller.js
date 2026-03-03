@@ -1,4 +1,4 @@
-const GetSongs = require("../../application/use-cases/get_songs");
+import GetSongs from "../../application/use-cases/get_songs.js";
 
 class SongController {
     static async allSong(req, res) {
@@ -12,4 +12,4 @@ class SongController {
     }
 }
 
-module.exports = SongController;
+export default SongController;

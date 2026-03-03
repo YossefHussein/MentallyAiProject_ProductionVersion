@@ -1,6 +1,6 @@
-const GeminiService = require("../../infrastructure/gemini/gemini_service");
-const GetDailyQuotes = require("../../application/use-cases/get_daily_quotes");
-const GetAdviceByMood = require("../../application/use-cases/get_advice_by_mood");
+import GeminiService from "../../infrastructure/gemini/gemini_service.js";
+import GetDailyQuotes from "../../application/use-cases/get_daily_quotes.js";
+import GetAdviceByMood from "../../application/use-cases/get_advice_by_mood.js";
 
 class MeditationController {
     static async dailyQuote(req, res) {
@@ -36,4 +36,4 @@ class MeditationController {
     }
 }
 
-module.exports = MeditationController;
+export default MeditationController;

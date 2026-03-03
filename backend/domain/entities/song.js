@@ -19,4 +19,4 @@ class Song {
   }
 }
 
-module.exports = Song;
+export default Song;

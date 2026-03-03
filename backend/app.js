@@ -1,23 +1,25 @@
-import rateLimit from 'express-rate-limit'
 // import dependencies
-const express = require("express");
+
+import dotenv from "dotenv";
+dotenv.config();
+
+import express from "express";
+// import cors for security
+import cors from "cors";
+import rateLimit from "express-rate-limit";
+// import song routing
+import songRouter from "./adapters/routes/songs_routes.js";
+// import meditation routing
+import meditationRouter from "./adapters/routes/meditation_routes.js";
+import meditationClassRouter from "./adapters/routes/meditation_classes_routes.js";
+
 // using the express
 const app = express();
-// import cors for security
-const cors = require("cors");
 // using cors for security
 app.use(cors());
 app.use(rateLimit());
 app.use(express.json());
-// import song routing
-const songRouter = require("./adapters/routes/songs_routes");
-// import meditation routing
-const meditationRouter = require("./adapters/routes/meditation_routes");
-const meditationClassRouter = require("./adapters/routes/meditation_classes_routes");
-// import the dotenv
-const dotenv = require("dotenv");
-// use the
-dotenv.config();
+
 // app port
 const PORT = process.env.PORT;
 // make middleware and routing

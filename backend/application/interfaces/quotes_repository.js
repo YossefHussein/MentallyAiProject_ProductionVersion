@@ -11,4 +11,4 @@ class QuotesRepository {
 }
 
 // export the interface
-module.exports = QuotesRepository;
+export default QuotesRepository;

@@ -22,4 +22,4 @@ class meditationClass {
   }
 }
 
-module.exports = meditationClass;
+export default meditationClass;

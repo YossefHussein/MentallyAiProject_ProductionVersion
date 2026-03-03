@@ -1,11 +1,11 @@
 // import the song fo r make song info
-const meditationClass = require("../../domain/entities/meditation_class");
+import meditationClass from "../../domain/entities/meditation_class.js";
 // import the interface to call execute function
-const UseCaseInterFace = require("../interfaces/use_case_interface");
+import UseCaseInterFace from "../interfaces/use_case_interface.js";
 // this destruction objet to
 // when pressed ctrl+right click you move to [getAllSong] function direct
 // because the [getAllSong] is return in finally object
-const { getAllMeditationClasses } = require("../../infrastructure/db/query/meditation_query");
+import { getAllMeditationClasses } from "../../infrastructure/db/query/meditation_query.js";
 
 class GetMeditationClasses extends UseCaseInterFace {
   async execute() {
@@ -30,4 +30,4 @@ class GetMeditationClasses extends UseCaseInterFace {
   }
 }
 
-module.exports = GetMeditationClasses;
+export default GetMeditationClasses;

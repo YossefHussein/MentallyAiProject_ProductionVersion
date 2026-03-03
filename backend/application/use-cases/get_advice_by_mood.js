@@ -1,5 +1,5 @@
-const Meditation = require("../../domain/entities/meditation");
-const UseCaseInterFace = require("../interfaces/use_case_interface");
+import Meditation from "../../domain/entities/meditation.js";
+import UseCaseInterFace from "../interfaces/use_case_interface.js";
 
 class GetAdviceByMood extends UseCaseInterFace {
   constructor(adviceRepository) {
@@ -13,4 +13,4 @@ class GetAdviceByMood extends UseCaseInterFace {
   }
 }
 
-module.exports = GetAdviceByMood;
+export default GetAdviceByMood;
