@@ -32,3 +32,19 @@ to run without error
 ```
 flutter run --release
 ```
+
+# Setup the backend env
+
+go to `.env.example`
+
+and set this information
+
+```
+Gemini_API_KEY=YourGeminiApiKey
+PORT=YourPostgresPort
+pgUser=YourPostgresUser
+pgPassword=YourPassword
+pgHost=YourPostgresHost
+pgPort=YourPostgresPort
+pgDataBase=YourPostgresNameOfDatabase
+```
