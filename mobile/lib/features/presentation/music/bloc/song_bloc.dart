@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mental_health_app/features/presentation/music/bloc/song_event.dart';
-import 'package:mental_health_app/features/presentation/music/bloc/song_state.dart';
-import 'package:mental_health_app/features/presentation/music/domain/usecases/get_all_songs.dart';
+import 'package:Mentally/features/presentation/music/bloc/song_event.dart';
+import 'package:Mentally/features/presentation/music/bloc/song_state.dart';
+import 'package:Mentally/features/presentation/music/domain/usecases/get_all_songs.dart';
 
 class SongBloc extends Bloc<SongEvent , SongState>{
 

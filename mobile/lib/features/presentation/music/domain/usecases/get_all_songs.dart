@@ -1,5 +1,5 @@
-import 'package:mental_health_app/features/presentation/music/domain/entities/song.dart';
-import 'package:mental_health_app/features/presentation/music/domain/repository/song_repository.dart';
+import 'package:Mentally/features/presentation/music/domain/entities/song.dart';
+import 'package:Mentally/features/presentation/music/domain/repository/song_repository.dart';
 
 class GetAllSongs {
   // import the song repository

@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
-import 'package:mental_health_app/features/presentation/get_doctor/data/model/doctor_model.dart';
+import 'package:Mentally/features/presentation/get_doctor/data/model/doctor_model.dart';
 
 abstract class GetDoctorRemoteDataSource {
   Future<List<DoctorModel>> getAllDoctor();

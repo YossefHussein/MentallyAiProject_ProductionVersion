@@ -1,5 +1,5 @@
 
-import 'package:mental_health_app/features/presentation/music/domain/entities/song.dart';
+import 'package:Mentally/features/presentation/music/domain/entities/song.dart';
 
 abstract class SongState {}
 

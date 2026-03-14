@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
-import 'package:mental_health_app/features/presentation/music/data/model/song_model.dart';
+import 'package:Mentally/features/presentation/music/data/model/song_model.dart';
 
 abstract class SongRemoteDataSource {
   Future<List<SongModel>> getAllSongs();

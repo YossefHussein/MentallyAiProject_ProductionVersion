@@ -1,7 +1,7 @@
-import 'package:mental_health_app/features/presentation/meditation/data/datasource/meditation_remote_datasource.dart';
-import 'package:mental_health_app/features/presentation/meditation/domain/entities/daily_quotes.dart';
-import 'package:mental_health_app/features/presentation/meditation/domain/entities/mood_message.dart';
-import 'package:mental_health_app/features/presentation/meditation/domain/repository/meditation_repository.dart';
+import 'package:Mentally/features/presentation/meditation/data/datasource/meditation_remote_datasource.dart';
+import 'package:Mentally/features/presentation/meditation/domain/entities/daily_quotes.dart';
+import 'package:Mentally/features/presentation/meditation/domain/entities/mood_message.dart';
+import 'package:Mentally/features/presentation/meditation/domain/repository/meditation_repository.dart';
 
 class MeditationRepositoryImpl implements MeditationRepository {
   final MeditationRemoteDataSource remoteDataSource;

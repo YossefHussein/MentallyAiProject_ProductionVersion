@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mental_health_app/features/presentation/meditation/bloc/mode_message/mode_message_event.dart';
-import 'package:mental_health_app/features/presentation/meditation/bloc/mode_message/mode_message_state.dart';
-import 'package:mental_health_app/features/presentation/meditation/domain/usecase/get_mood_message.dart';
+import 'package:Mentally/features/presentation/meditation/bloc/mode_message/mode_message_event.dart';
+import 'package:Mentally/features/presentation/meditation/bloc/mode_message/mode_message_state.dart';
+import 'package:Mentally/features/presentation/meditation/domain/usecase/get_mood_message.dart';
 
 class MoodMessageBloc extends Bloc<ModeMessageEvent, MoodMessageState> {
   final GetMoodMessage getMoodMessage;

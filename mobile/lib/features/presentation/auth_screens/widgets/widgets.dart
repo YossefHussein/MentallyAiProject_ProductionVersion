@@ -1,5 +1,5 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:mental_health_app/core/theme.dart';
+import 'package:Mentally/core/theme.dart';
 
 Future<bool?> sendMSG(message) async {
   return await Fluttertoast.showToast(

@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
-import 'package:mental_health_app/features/presentation/meditation/bloc/mode_message/mode_message_bloc.dart';
-import 'package:mental_health_app/features/presentation/meditation/bloc/mode_message/mode_message_state.dart';
-import 'package:mental_health_app/features/presentation/meditation/data/chart_mode/data_helper.dart';
-import 'package:mental_health_app/features/presentation/meditation/data/model/chart_mode_data_model.dart';
-import 'package:mental_health_app/features/presentation/meditation/widgets/chart_widget.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/features/presentation/meditation/bloc/mode_message/mode_message_bloc.dart';
+import 'package:Mentally/features/presentation/meditation/bloc/mode_message/mode_message_state.dart';
+import 'package:Mentally/features/presentation/meditation/data/chart_mode/data_helper.dart';
+import 'package:Mentally/features/presentation/meditation/data/model/chart_mode_data_model.dart';
+import 'package:Mentally/features/presentation/meditation/widgets/chart_widget.dart';
 import 'dart:math';
 
 /**

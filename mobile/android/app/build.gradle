@@ -19,7 +19,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.futureitway.mentally"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 //    ndkVersion = "25.1.8937393"
     compileOptions {

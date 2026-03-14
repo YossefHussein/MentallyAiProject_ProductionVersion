@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_app/core/theme.dart';
+import 'package:Mentally/core/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:sign_in_button/sign_in_button.dart';
 import 'package:clipboard/clipboard.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
 
 class AboutDeveloper extends StatelessWidget {
   const AboutDeveloper({super.key});

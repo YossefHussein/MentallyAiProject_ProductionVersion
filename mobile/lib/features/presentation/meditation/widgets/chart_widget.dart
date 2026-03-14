@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/meditation/data/model/chart_mode_data_model.dart';
-import 'package:mental_health_app/features/presentation/meditation/widgets/custom_mood_bottomsheet.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/meditation/data/model/chart_mode_data_model.dart';
+import 'package:Mentally/features/presentation/meditation/widgets/custom_mood_bottomsheet.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class ChartWidget extends StatefulWidget {

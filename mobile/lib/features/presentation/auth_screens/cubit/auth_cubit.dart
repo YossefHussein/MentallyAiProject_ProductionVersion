@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/cubit/auth_state.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/features/presentation/auth_screens/cubit/auth_state.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
 
 class AuthCubit extends Cubit<AuthStates> {
   AuthCubit() : super(AuthInitialState());

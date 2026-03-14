@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:mental_health_app/features/presentation/meditation/domain/entities/daily_quotes.dart';
+import 'package:Mentally/features/presentation/meditation/domain/entities/daily_quotes.dart';
 
 class DailyQuoteModel extends DailyQuote {
   DailyQuoteModel({

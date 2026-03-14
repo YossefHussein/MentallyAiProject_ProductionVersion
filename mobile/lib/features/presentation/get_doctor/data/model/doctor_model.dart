@@ -1,5 +1,5 @@
 
-import 'package:mental_health_app/features/presentation/get_doctor/domain/entities/doctor.dart';
+import 'package:Mentally/features/presentation/get_doctor/domain/entities/doctor.dart';
 
 class DoctorModel extends DoctorEntities {
   // ignore: use_super_parameters

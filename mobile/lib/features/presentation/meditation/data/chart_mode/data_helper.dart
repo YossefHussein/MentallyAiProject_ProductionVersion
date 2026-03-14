@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:mental_health_app/features/presentation/meditation/data/model/chart_mode_data_model.dart';
+import 'package:Mentally/features/presentation/meditation/data/model/chart_mode_data_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';

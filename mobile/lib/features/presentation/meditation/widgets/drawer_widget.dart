@@ -8,14 +8,14 @@ import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:mental_health_app/core/ads_helper.dart';
-import 'package:mental_health_app/core/routes.dart';
-import 'package:mental_health_app/features/presentation/account/page/setting_screen.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
-import 'package:mental_health_app/presentation/about_developer.dart';
-import 'package:mental_health_app/presentation/support_developer.dart';
-import 'package:mental_health_app/presentation/tech_used.dart';
-import 'package:mental_health_app/translations/locale_keys.dart';
+import 'package:Mentally/core/ads_helper.dart';
+import 'package:Mentally/core/routes.dart';
+import 'package:Mentally/features/presentation/account/page/setting_screen.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/presentation/about_developer.dart';
+import 'package:Mentally/presentation/support_developer.dart';
+import 'package:Mentally/presentation/tech_used.dart';
+import 'package:Mentally/translations/locale_keys.dart';
 import 'package:restart_app/restart_app.dart';
 
 class DrawerWidget extends StatefulWidget {
@@ -48,15 +48,15 @@ class _DrawerWidgetState extends State<DrawerWidget> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.only(
-            topRight: Radius.circular(0), bottomRight: Radius.circular(0)),
-      ),
+      // shape: const RoundedRectangleBorder(
+      //   borderRadius: BorderRadius.only(
+      //       topRight: Radius.circular(0), bottomRight: Radius.circular(0)),
+      // ),
       child: ListView(
         children: [
           DrawerHeader(
             // to delete the padding of drawer header
-            padding: EdgeInsets.zero,
+            // padding: EdgeInsets.zero,
             // image of user
             child: Container(
               decoration: BoxDecoration(
@@ -67,31 +67,28 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   fit: BoxFit.cover,
                 ),
               ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Align(
-                  alignment: Alignment.bottomLeft,
-                  child: GestureDetector(
-                    // display email
-                    child: AutoSizeText(
-                      '${FirebaseAuth.instance.currentUser?.email}',
-                      style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                            color:
-                                FirebaseAuth.instance.currentUser?.photoURL ==
-                                        null
-                                    ? Colors.black
-                                    : Colors.white,
-                          ),
-                    ),
-                    // copy email
-                    onTap: () {
-                      FlutterClipboard.copy(
-                              '${FirebaseAuth.instance.currentUser?.email}')
-                          .then(
-                        (value) => sendMSG('copied'),
-                      );
-                    },
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: GestureDetector(
+                  // display email
+                  child: AutoSizeText(
+                    '${FirebaseAuth.instance.currentUser?.email}',
+                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                          color:
+                              FirebaseAuth.instance.currentUser?.photoURL ==
+                                      null
+                                  ? Colors.black
+                                  : Colors.white,
+                        ),
                   ),
+                  // copy email
+                  onTap: () {
+                    FlutterClipboard.copy(
+                            '${FirebaseAuth.instance.currentUser?.email}')
+                        .then(
+                      (value) => sendMSG('copied'),
+                    );
+                  },
                 ),
               ),
             ),
@@ -137,7 +134,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
               ),
             ),
           ),
-          // tech used to devloping
+          // tech used to developing
           ListTile(
             title: GestureDetector(
               onTap: () {

@@ -1,7 +1,7 @@
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
 import 'package:share_plus/share_plus.dart';
 
 class TaskCard extends StatelessWidget {
@@ -63,7 +63,7 @@ class TaskCard extends StatelessWidget {
                         icon: Icon(Icons.copy),
                         onPressed: () {
                           FlutterClipboard.copy(description).then((value) =>
-                              sendMSG('copied the advice: ${description}.'));
+                              sendMSG('copied the advice: $description.'));
                         },
                       ),
                     ),
@@ -74,7 +74,7 @@ class TaskCard extends StatelessWidget {
                         icon: Icon(Icons.share),
                         onPressed: () async {
                           final result = await Share.share(
-                            'check out new advice "${description}."',
+                            'check out new advice "$description."',
                             subject: '$title Advice',
                           );
 

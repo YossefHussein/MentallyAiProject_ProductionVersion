@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:mental_health_app/core/routes.dart';
-// import 'package:mental_health_app/features/presentation/chat_gemini/chat_with_gemini.dart';
-import 'package:mental_health_app/features/presentation/get_doctor/page/get_doctor.dart';
-import 'package:mental_health_app/features/presentation/meditation/page/meditation_screen.dart';
-import 'package:mental_health_app/features/presentation/music/page/playlist_screen.dart';
-import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_bloc.dart';
-import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_events.dart';
-import 'package:mental_health_app/presentation/bottom_nav_bar/bloc/navigation_states.dart';
-import 'package:mental_health_app/presentation/bottom_nav_bar/widget/bottom_nav_bar.dart';
+import 'package:Mentally/core/routes.dart';
+// import 'package:Mentally/features/presentation/chat_gemini/chat_with_gemini.dart';
+import 'package:Mentally/features/presentation/get_doctor/page/get_doctor.dart';
+import 'package:Mentally/features/presentation/meditation/page/meditation_screen.dart';
+import 'package:Mentally/features/presentation/music/page/playlist_screen.dart';
+import 'package:Mentally/presentation/bottom_nav_bar/bloc/navigation_bloc.dart';
+import 'package:Mentally/presentation/bottom_nav_bar/bloc/navigation_events.dart';
+import 'package:Mentally/presentation/bottom_nav_bar/bloc/navigation_states.dart';
+import 'package:Mentally/presentation/bottom_nav_bar/widget/bottom_nav_bar.dart';
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen({super.key});
+ HomeScreen({super.key});
 
 //  list to contain the pages
   final List<Widget> pages = [

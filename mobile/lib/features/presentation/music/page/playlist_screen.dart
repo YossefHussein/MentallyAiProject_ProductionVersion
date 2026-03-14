@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/music/bloc/song_bloc.dart';
-import 'package:mental_health_app/features/presentation/music/bloc/song_state.dart';
-import 'package:mental_health_app/features/presentation/music/widgets/songs_bottom_sheet.dart';
-import 'package:mental_health_app/translations/locale_keys.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/music/bloc/song_bloc.dart';
+import 'package:Mentally/features/presentation/music/bloc/song_state.dart';
+import 'package:Mentally/features/presentation/music/widgets/songs_bottom_sheet.dart';
+import 'package:Mentally/translations/locale_keys.dart';
 
 class PlaylistScreen extends StatelessWidget {
   const PlaylistScreen({super.key});

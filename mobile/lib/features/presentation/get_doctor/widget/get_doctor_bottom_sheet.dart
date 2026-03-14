@@ -2,9 +2,9 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:mental_health_app/core/ads_helper.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/get_doctor/domain/entities/doctor.dart';
+import 'package:Mentally/core/ads_helper.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/get_doctor/domain/entities/doctor.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 
 void doctorBottomSheet(BuildContext context,

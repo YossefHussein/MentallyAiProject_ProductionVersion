@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-// import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/pages/login_page.dart';
-import 'package:mental_health_app/presentation/home_screen/home_screen.dart';
-// import 'package:mental_health_app/presentation/onboarding.dart';
+// import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/auth_screens/pages/login_page.dart';
+import 'package:Mentally/presentation/home_screen/home_screen.dart';
+// import 'package:Mentally/presentation/onboarding.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
 
 class Auth extends StatelessWidget {

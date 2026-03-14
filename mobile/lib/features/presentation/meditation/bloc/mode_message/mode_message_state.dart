@@ -1,4 +1,4 @@
-import 'package:mental_health_app/features/presentation/meditation/domain/entities/mood_message.dart';
+import 'package:Mentally/features/presentation/meditation/domain/entities/mood_message.dart';
 
 abstract class MoodMessageState {}
 

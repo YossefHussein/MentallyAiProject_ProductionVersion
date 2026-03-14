@@ -5,11 +5,10 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:just_audio_cache/just_audio_cache.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:mental_health_app/core/ads_helper.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/music/domain/entities/song.dart';
+import 'package:Mentally/core/ads_helper.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/music/domain/entities/song.dart';
 
 void songBottomSheet(BuildContext context, {required Song songs}) {
   showModalBottomSheet(
@@ -106,9 +105,7 @@ class _SongsBottomSheetState extends State<SongsBottomSheet> {
     // for initializing the music
     _audioPlayer = AudioPlayer();
     // to set urk of music and save
-    _audioPlayer.dynamicSet(
-      url: widget.songs.songLink,
-    );
+    _audioPlayer.setUrl(widget.songs.songLink);
     // for auto start the music
     _audioPlayer.play();
     // to monitor the state

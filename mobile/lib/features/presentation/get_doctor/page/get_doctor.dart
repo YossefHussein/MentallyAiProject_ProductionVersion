@@ -4,11 +4,11 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/get_doctor/bloc/doctor_bloc.dart';
-import 'package:mental_health_app/features/presentation/get_doctor/bloc/doctor_state.dart';
-import 'package:mental_health_app/features/presentation/get_doctor/widget/get_doctor_bottom_sheet.dart';
-import 'package:mental_health_app/translations/locale_keys.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/get_doctor/bloc/doctor_bloc.dart';
+import 'package:Mentally/features/presentation/get_doctor/bloc/doctor_state.dart';
+import 'package:Mentally/features/presentation/get_doctor/widget/get_doctor_bottom_sheet.dart';
+import 'package:Mentally/translations/locale_keys.dart';
 
 class GetDoctorScreen extends StatelessWidget {
   const GetDoctorScreen({super.key});
@@ -25,11 +25,9 @@ class GetDoctorScreen extends StatelessWidget {
         builder: (context, state) {
           if (state is GetDoctorLoading) {
             // display a loader
-            return 
-              const LinearProgressIndicator(
-                color: DefaultColors.pink,
+            return const LinearProgressIndicator(
+              color: DefaultColors.pink,
             );
-          
           } else if (state is GetDoctorLoaded) {
             // display all the information
             return ListView.builder(

@@ -1,5 +1,5 @@
-import 'package:mental_health_app/features/presentation/meditation/domain/entities/daily_quotes.dart';
-import 'package:mental_health_app/features/presentation/meditation/domain/repository/meditation_repository.dart';
+import 'package:Mentally/features/presentation/meditation/domain/entities/daily_quotes.dart';
+import 'package:Mentally/features/presentation/meditation/domain/repository/meditation_repository.dart';
 
 class GetDailyQuote {
   final MeditationRepository repository;

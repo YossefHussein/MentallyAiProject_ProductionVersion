@@ -1,4 +1,4 @@
-import 'package:mental_health_app/features/presentation/music/domain/entities/song.dart';
+import 'package:Mentally/features/presentation/music/domain/entities/song.dart';
 
 class SongModel extends Song {
   // ignore: use_super_parameters

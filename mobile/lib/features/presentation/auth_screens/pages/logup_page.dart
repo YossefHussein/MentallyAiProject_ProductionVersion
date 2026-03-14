@@ -5,12 +5,12 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:icons_plus/icons_plus.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/cubit/auth_cubit.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/cubit/auth_state.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/pages/login_page.dart';
-import 'package:mental_health_app/presentation/auth.dart';
-import 'package:mental_health_app/translations/locale_keys.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/auth_screens/cubit/auth_cubit.dart';
+import 'package:Mentally/features/presentation/auth_screens/cubit/auth_state.dart';
+import 'package:Mentally/features/presentation/auth_screens/pages/login_page.dart';
+import 'package:Mentally/presentation/auth.dart';
+import 'package:Mentally/translations/locale_keys.dart';
 
 class LogUpScreen extends StatefulWidget {
   const LogUpScreen({super.key});

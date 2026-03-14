@@ -3,18 +3,22 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:mental_health_app/core/theme.dart';
-import 'package:mental_health_app/features/presentation/auth_screens/widgets/widgets.dart';
-import 'package:mental_health_app/translations/locale_keys.dart';
+import 'package:Mentally/core/theme.dart';
+import 'package:Mentally/features/presentation/auth_screens/widgets/widgets.dart';
+import 'package:Mentally/translations/locale_keys.dart';
 
-class SettingScreen extends StatelessWidget {
+class SettingScreen extends StatefulWidget {
+  const SettingScreen({super.key});
+
+  @override
+  State<SettingScreen> createState() => _SettingScreenState();
+}
+
+class _SettingScreenState extends State<SettingScreen> {
   final user = FirebaseAuth.instance.currentUser;
-  TextEditingController changeEmailTextFormFieldController =
+  final TextEditingController changeEmailTextFormFieldController =
       TextEditingController();
-  TextEditingController photoTextFormFieldController = TextEditingController();
-
-  SettingScreen({super.key});
+  final TextEditingController photoTextFormFieldController = TextEditingController();
 
   // this function for selected the profile photo by URL
   void selectProfilePicture(context) async {
@@ -27,6 +31,7 @@ class SettingScreen extends StatelessWidget {
         ),
         content: CupertinoTextField(
           controller: photoTextFormFieldController,
+          padding: EdgeInsets.all(12),
           placeholder: 'Should to be URL photo extension like PNG JPEG ETC',
         ),
         actions: <CupertinoDialogAction>[
@@ -156,8 +161,8 @@ class SettingScreen extends StatelessWidget {
                       helper: Text(
                         'email will be change when submitted',
                       ),
-                      hintStyle: TextStyle(color: Colors.grey.shade800),
-                      labelStyle: TextStyle(color: Colors.black),
+                      hintStyle: TextStyle(color: Theme.of(context).textTheme.bodySmall?.color),
+                      labelStyle: TextStyle(color: Theme.of(context).textTheme.bodySmall?.color),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5),
                         borderSide: BorderSide(
